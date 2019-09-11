@@ -1,9 +1,10 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(greeting)
-  if greeting 
-else
-  puts 
-end
+  if greeting == greeting.upcase
+    puts
+  else
+    puts "HUH?! SPEAK UP, SONNY!"
+  end
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
