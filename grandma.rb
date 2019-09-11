@@ -3,7 +3,7 @@ def speak_to_grandma(greeting)
   if greeting == greeting.upcase
     print "SOMETHING"
   else
-    puts "SOMETHING"
+    print "SOMETHING"
   end
 end
 # Whatever you say to grandma, she should respond with
